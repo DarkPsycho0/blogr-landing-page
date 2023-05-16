@@ -26,7 +26,7 @@
     display: flex;
     justify-content: space-between;
     margin: 0 auto 130px;
-    width: 80%;
+    width: 65%;
 }
 
 .header .navigation div {
@@ -108,4 +108,38 @@
 .header .start li:last-child {
     color: hsl(0, 0%, 100%);
     border: 2px solid hsl(0, 0%, 100%);
+}
+
+.info{
+    height: 800px;
+    background-image: url(../images/illustration-editor-desktop.svg);
+    background-repeat: no-repeat;
+    background-position: 120% 50%;
+    background-size: 775px;
+}
+
+.info h2{
+    text-align: center;
+    color: hsl(208, 49%, 24%);
+    font-size: 40px;
+    font-family: 'Overpass', sans-serif;
+    margin-bottom: 80px;
+    margin-top: 100px;
+}
+
+.info .information{
+    padding: 0px 980px 0 400px;
+}
+
+.info .information h3{
+    font-size: 26px;
+    font-family: 'Overpass', sans-serif;
+    color: hsl(208, 49%, 24%);
+    margin-bottom: 30px;
+}
+
+.info .information p{
+    color: hsl(237, 17%, 21%);
+    line-height: 28px;
+    margin-bottom: 30px;
 }
