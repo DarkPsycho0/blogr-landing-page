@@ -143,3 +143,43 @@
     line-height: 28px;
     margin-bottom: 30px;
 }
+
+.state {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: hsl(237, 17%, 21%);
+    background-image: url(../images/bg-pattern-circles.svg);
+    background-repeat: no-repeat;
+    background-position: 5% 80%;
+    background-size: 60%;
+    border-bottom-left-radius: 150px;
+    border-top-right-radius: 150px;
+    height: 450px;
+    width: 100%;
+    position: relative;
+}
+
+.state img{
+    position: absolute;
+    left: 18%;
+    top: -10%;
+}
+
+.state div {
+    width: 30%;
+    margin-right: 350px;
+}
+
+.state div h2{
+    font-size: 40px;
+    font-family: 'Overpass', sans-serif;
+    color: hsl(0, 0%, 100%);
+    margin-bottom: 20px;
+}
+
+.state div p{
+    font-size: 18px;
+    line-height: 28px;
+    color: hsl(0, 0%, 100%);
+}
