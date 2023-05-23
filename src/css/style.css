@@ -114,8 +114,8 @@
     height: 800px;
     background-image: url(../images/illustration-editor-desktop.svg);
     background-repeat: no-repeat;
-    background-position: 90% 50%;
-    background-size: 775px;
+    background-position: 90% 75%;
+    background-size: 800px;
 }
 
 .info h2{
@@ -182,4 +182,34 @@
     font-size: 18px;
     line-height: 28px;
     color: hsl(0, 0%, 100%);
+}
+
+.simple{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+    width: 100%;
+    height: 900px;
+    background-image: url(../images/illustration-laptop-desktop.svg);
+    background-repeat: no-repeat;
+    background-position: 10% 35%;
+}
+
+.free, .powerful{
+    width: 525px;
+    margin-right: 300px;
+}
+
+.simple h2{
+    font-size: 26px;
+    font-family: 'Overpass', sans-serif;
+    color: hsl(208, 49%, 24%);
+    margin-bottom: 30px;
+}
+
+.simple p{
+    color: hsl(237, 17%, 21%);
+    line-height: 28px;
+    margin-bottom: 30px;
 }
