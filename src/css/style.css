@@ -45,7 +45,15 @@
 
 .header .navigation div nav ul li {
     padding-right: 30px;
-    color: #ffffff;
+    color: hsl(0, 0%, 95%);
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+
+.header .navigation div nav ul li:hover{
+    text-decoration: underline;
+    color: hsl(0, 0%, 100%);
 }
 
 .header .navigation div nav ul li i {
@@ -70,6 +78,13 @@
     background-color: hsl(0, 0%, 100%);
     border-radius: 50px;
     font-weight: 700;
+    transition: 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.register ul li:last-child:hover, .header .start li:first-child:hover{
+    color: hsl(0, 0%, 100%);
+    background-color: hsl(355, 100%, 74%);
 }
 
 .header .title {
@@ -103,11 +118,20 @@
 .header .start li:first-child {
     color: hsl(356, 100%, 66%);
     background-color: hsl(0, 0%, 100%);
+    transition: 0.3s ease-in-out;
+    cursor: pointer;
 }
 
 .header .start li:last-child {
     color: hsl(0, 0%, 100%);
     border: 2px solid hsl(0, 0%, 100%);
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+
+.header .start li:last-child:hover{
+    background-color: hsl(0, 0%, 100%);
+    color: hsl(356, 100%, 66%);
 }
 
 .info{
@@ -232,4 +256,12 @@
 .footer ul li:first-child{
     color: hsl(0, 0%, 100%);
     margin-bottom: 40px;
+}
+
+.footer ul li:hover{
+    text-decoration: underline;
+}
+
+.footer ul li:first-child:hover{
+    text-decoration: none;
 }
