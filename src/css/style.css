@@ -21,7 +21,7 @@
     background: linear-gradient(90deg, rgba(255, 143, 112, 1) 0%, rgba(255, 61, 84, 1) 100%);
 }
 
-.background-image{
+.background-image {
     background-image: url(../images/bg-pattern-intro-desktop.svg);
     background-repeat: no-repeat;
     background-position: 40% 50%;
@@ -33,9 +33,8 @@
 .header .navigation {
     display: flex;
     justify-content: space-between;
-    margin: 0 auto 130px;
+    margin: 60px auto 130px;
     width: 65%;
-    margin-top: 60px;
 }
 
 .header .navigation div {
@@ -60,7 +59,7 @@
     transition: 0.3s ease-in-out;
 }
 
-.header .navigation div nav ul li:hover{
+.header .navigation div nav ul li:hover {
     text-decoration: underline;
     color: hsl(0, 0%, 100%);
 }
@@ -91,7 +90,8 @@
     cursor: pointer;
 }
 
-.register ul li:last-child:hover, .header .start li:first-child:hover{
+.register ul li:last-child:hover,
+.header .start li:first-child:hover {
     color: hsl(0, 0%, 100%);
     background-color: hsl(355, 100%, 74%);
 }
@@ -138,20 +138,21 @@
     transition: 0.3s ease-in-out;
 }
 
-.header .start li:last-child:hover{
+.header .start li:last-child:hover {
     background-color: hsl(0, 0%, 100%);
     color: hsl(356, 100%, 66%);
 }
 
-.info{
+.info {
     height: 800px;
+    width: 100%;
     background-image: url(../images/illustration-editor-desktop.svg);
     background-repeat: no-repeat;
     background-position: 90% 75%;
     background-size: 800px;
 }
 
-.info h2{
+.info h2 {
     text-align: center;
     color: hsl(208, 49%, 24%);
     font-size: 40px;
@@ -160,18 +161,19 @@
     margin-top: 100px;
 }
 
-.info .information{
-    padding: 0px 980px 0 400px;
+.info .information {
+    margin-left: 320px;
+    width: 520px;
 }
 
-.info .information h3{
+.info .information h3 {
     font-size: 26px;
     font-family: 'Overpass', sans-serif;
     color: hsl(208, 49%, 24%);
     margin-bottom: 30px;
 }
 
-.info .information p{
+.info .information p {
     color: hsl(237, 17%, 21%);
     line-height: 28px;
     margin-bottom: 30px;
@@ -193,7 +195,7 @@
     position: relative;
 }
 
-.state img{
+.state img {
     position: absolute;
     left: 18%;
     top: -10%;
@@ -204,20 +206,20 @@
     margin-right: 350px;
 }
 
-.state div h2{
+.state div h2 {
     font-size: 40px;
     font-family: 'Overpass', sans-serif;
     color: hsl(0, 0%, 100%);
     margin-bottom: 20px;
 }
 
-.state div p{
+.state div p {
     font-size: 18px;
     line-height: 28px;
     color: hsl(0, 0%, 100%);
 }
 
-.simple{
+.simple {
     display: flex;
     flex-direction: column;
     align-items: flex-end;
@@ -229,25 +231,26 @@
     background-position: 10% 35%;
 }
 
-.free, .powerful{
+.free,
+.powerful {
     width: 525px;
     margin-right: 300px;
 }
 
-.simple h2{
+.simple h2 {
     font-size: 26px;
     font-family: 'Overpass', sans-serif;
     color: hsl(208, 49%, 24%);
     margin-bottom: 30px;
 }
 
-.simple p{
+.simple p {
     color: hsl(237, 17%, 21%);
     line-height: 28px;
     margin-bottom: 30px;
 }
 
-.footer{
+.footer {
     display: flex;
     justify-content: space-between;
     background-color: hsl(240, 10%, 16%);
@@ -257,20 +260,20 @@
     padding: 75px 350px;
 }
 
-.footer ul li{
+.footer ul li {
     color: hsl(240, 2%, 79%);
     margin-bottom: 15px;
 }
 
-.footer ul li:first-child{
+.footer ul li:first-child {
     color: hsl(0, 0%, 100%);
     margin-bottom: 40px;
 }
 
-.footer ul li:hover{
+.footer ul li:hover {
     text-decoration: underline;
 }
 
-.footer ul li:first-child:hover{
+.footer ul li:first-child:hover {
     text-decoration: none;
 }
