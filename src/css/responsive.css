@@ -166,15 +166,16 @@
         margin-right: 0;
     }
 
-    .state div h2, .state div p{
+    .state div h2,
+    .state div p {
         text-align: center;
     }
 
-    .state div h2{
+    .state div h2 {
         font-size: 40px;
     }
 
-    .state div p{
+    .state div p {
         margin-bottom: 90px;
     }
 
@@ -191,7 +192,109 @@
         background-size: 100%;
     }
 
-    .simple h2, .simple p{
+    .simple h2,
+    .simple p {
         text-align: center;
+    }
+}
+
+@media(max-width:425px) {
+    .header {
+        height: 70vh;
+        border-bottom-left-radius: 100px;
+    }
+
+    .background-image {
+        background-image: url(../images/bg-pattern-intro-mobile.svg);
+        background-position: 50% 50%;
+        background-size: 250%;
+        border-bottom-left-radius: 100px;
+    }
+
+    .header .navigation div nav ul li,
+    .register ul {
+        display: none;
+    }
+
+    .header .title {
+        font-size: 32px;
+    }
+
+    .header .description {
+        font-size: 16px;
+    }
+
+    .info {
+        height: 1100px;
+        background-size: 90%;
+        background-position: 50% 12%;
+    }
+
+    .info h2 {
+        font-size: 28px;
+        margin-top: 60px;
+        margin-bottom: 300px;
+    }
+
+    .info .information {
+        margin-left: 0;
+        width: 300px;
+    }
+
+    .state {
+        height: 500px;
+        background-position: 50% 200%;
+        background-size: 150%;
+        border-bottom-left-radius: 100px;
+        border-top-right-radius: 100px;
+    }
+
+    .state img {
+        width: 300px;
+        left: 15%;
+        top: -20%;
+    }
+
+    .state div {
+        width: 70%;
+    }
+
+    .state div h2 {
+        font-size: 26px;
+    }
+
+    .state div p {
+        font-size: 13px;
+        line-height: 24px;
+        margin-bottom: 30px;
+    }
+
+    .simple {
+        height: 900px;
+        background-position: 50% 0%;
+        background-size: 120%;
+    }
+
+    .free,
+    .powerful {
+        width: 300px;
+        margin-right: 0px;
+    }
+
+    .footer {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        width: 100%;
+        height: 100%;
+        padding: 50px 100px;
+    }
+
+    .footer img, .footer ul{
+        margin-bottom: 20px;
+    }
+
+    .footer ul li:first-child {
+        margin-bottom: 30px;
     }
 }

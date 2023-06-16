@@ -59,12 +59,12 @@
     transition: 0.3s ease-in-out;
 }
 
-.header .navigation div nav ul li:hover {
+.header .menu li:hover {
     text-decoration: underline;
     color: hsl(0, 0%, 100%);
 }
 
-.header .navigation div nav ul li i {
+.header .menu li i {
     font-size: 10px;
     margin-left: 5px;
 }
